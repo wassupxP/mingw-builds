@@ -58,7 +58,7 @@ PKG_CONFIGURE_FLAGS=(
 	#
 	--prefix=$RUNTIME_DIR/$PKG_NAME
 	#
-	--enable-shared
+	--disable-shared
 	--enable-static
 	#
 	CFLAGS="\"$COMMON_CFLAGS\""
